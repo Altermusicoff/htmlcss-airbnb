@@ -2,16 +2,25 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+}
+
+main{
+  width: 80%;
+  margin: 10% auto;
   font-family: sans-serif, cursive;
 }
 
 .world{
   height: 100vh;
   width: 100%;
+  margin: 10% auto;
   position: relative;
-  border: 15px solid #fff;
+  border: 15px solid black;
   border-radius: 50px;
-  padding: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .layover{
@@ -22,21 +31,16 @@
 
 /* sezione immagini */
 #birdworld{
-  background: url("../img/Bird World.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
+  background-image: url("../img/Bird World.jpg");
 }
 
 #venzenulon{
-  background: url("../img/Venzenulon.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
+  background-image: url("../img/Venzenulon.jpg");
 }
 
 #unityplanet{
-  background: url("../img/Unity's Planet.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
+  background-image: url("../img/Unity's Planet.jpg");
+
 }
 
 /* sezione testo */
